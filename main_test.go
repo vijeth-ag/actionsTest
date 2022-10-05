@@ -6,7 +6,7 @@ import (
 )
 
 func TestSayHello(t *testing.T) {
-	expected := "Hello vijeth"
+	expected := "Hellox vijeth"
 	actual := SayHello("vijeth")
 
 	log.Println("ex", expected)
